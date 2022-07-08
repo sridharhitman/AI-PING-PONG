@@ -18,14 +18,33 @@
         <center>
             <div class="btn btn-info heading">
               <h3>AI Ping Pong Game</h3>
-              <button class="btn btn-primary" data-toggle="modal" data-target="#instructions">Instructions</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#instructions">Instructions</button>
             </div>
             
-            <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+            <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button> <br>
+            <button class="btn btn-dark" onclick="restart()" id="restart">Restart</button>
             <br><br>
             <h3 id="status" class="btn btn-warning"></h3>
             <br><br>
             <div id="canvas"></div>
+            <div  id="instructions" class="modal fade">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4>Instructions</h4>
+                    <button class="close" data-bs-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <ol>
+                      <li></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              Made By Sridhar Hisaria
+            </div>
           </center>
         <script src="main.js"></script>
     </body>

@@ -10,6 +10,13 @@
     border:1px solid white;
 }
 
-#start, #status{
+#start, #status,#restart{
     font-size:22px;
+}
+.copyright{
+    position: sticky;
+    background: gray;
+    line-height:3;
+    color:white;
+    bottom: 0;
 }
